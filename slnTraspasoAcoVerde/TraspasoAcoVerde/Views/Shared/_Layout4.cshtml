@@ -1,0 +1,96 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-acosta">
+        <a class="navbar-brand" href="#"><img src="~/Content/images/logo-acosta-verde.png" height="30" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="@Url.Action("Index", "Home")"><i class="fa fa-fw fa-home"></i> Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-fw fa-map"></i> Plazas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="@Url.Action("Index", "Plaza")">Plazas</a>
+                        <a class="dropdown-item" href="@Url.Action("Technicals", "Plaza")">Ficha Técnica</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-fw fa-file-text"></i> Administración
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="@Url.Action("Configuration", "Administration")">Configuración</a>
+                        <a class="dropdown-item" href="@Url.Action("Roles", "Administration")">Roles de Usuario</a>
+                        <a class="dropdown-item" href="@Url.Action("Users", "Administration")">Usuarios</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <div class="input-group md-form form-sm form-1 pl-0">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text green-acosta lighten-2" id="basic-text1">
+                            <i class="fa fa-search text-black-50"
+                               aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <input class="form-control my-0 py-1" type="text" placeholder="Buscar" aria-label="Buscar">
+                </div>
+            </form>
+            <div class="form-inline bg-dark-acosta">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <img style="height:40px; margin-top: 4px;" src="~/Content/images/logoaxsis.png" class="rcorners4" />
+                        </div>
+                        <div class="col-6">
+                            <div class="row font-green-acosta">{Rol User}</div>
+                            <div class="row font-little-small">{Username}</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </nav>
+
+    <div class="container">
+        
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Desarrollado por el Nacho´s Team</p>
+        </footer>
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
