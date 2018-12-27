@@ -27,11 +27,12 @@
 }
 
 .font-green-acosta {
+    font-size: 11px;
     color: #b6ff00;
 }
 
 .font-little-small{
-    font-size: 13px;
+    font-size: 9px;
 }
 
 .input-group.md-form.form-sm.form-1 input {

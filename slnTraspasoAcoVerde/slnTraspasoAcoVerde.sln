@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraspasoAcoVerde", "TraspasoAcoVerde\TraspasoAcoVerde.csproj", "{5B0BB1D0-48B7-4952-8EB3-64DA2092B5E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acosta.Data", "Acosta.Data\Acosta.Data.csproj", "{760D290B-8736-48C2-ABC2-3D0D72EF970C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acosta.Domain", "Acosta.Domain\Acosta.Domain.csproj", "{C13DBE95-7D4B-4FB0-BBB9-177F64020987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5B0BB1D0-48B7-4952-8EB3-64DA2092B5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B0BB1D0-48B7-4952-8EB3-64DA2092B5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B0BB1D0-48B7-4952-8EB3-64DA2092B5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760D290B-8736-48C2-ABC2-3D0D72EF970C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760D290B-8736-48C2-ABC2-3D0D72EF970C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760D290B-8736-48C2-ABC2-3D0D72EF970C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760D290B-8736-48C2-ABC2-3D0D72EF970C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C13DBE95-7D4B-4FB0-BBB9-177F64020987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13DBE95-7D4B-4FB0-BBB9-177F64020987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13DBE95-7D4B-4FB0-BBB9-177F64020987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13DBE95-7D4B-4FB0-BBB9-177F64020987}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

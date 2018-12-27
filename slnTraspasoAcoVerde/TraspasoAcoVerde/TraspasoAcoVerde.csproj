@@ -136,6 +136,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="AuxClasses\GeneralFunctions.cs" />
     <Compile Include="Controllers\AdministrationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PlazaController.cs" />
@@ -215,6 +216,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Acosta.Data\Acosta.Data.csproj">
+      <Project>{760D290B-8736-48C2-ABC2-3D0D72EF970C}</Project>
+      <Name>Acosta.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Acosta.Domain\Acosta.Domain.csproj">
+      <Project>{C13DBE95-7D4B-4FB0-BBB9-177F64020987}</Project>
+      <Name>Acosta.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
