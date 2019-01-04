@@ -146,6 +146,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\jsgrid.js" />
+    <Content Include="Scripts\Project\Project.js" />
+    <Content Include="Scripts\Project\Admon\Users.js" />
     <Content Include="Content\Bootstrap-4\bootstrap-grid.css" />
     <Content Include="Content\Bootstrap-4\bootstrap-grid.min.css" />
     <Content Include="Content\Bootstrap-4\bootstrap-reboot.css" />
@@ -202,6 +205,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\App\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

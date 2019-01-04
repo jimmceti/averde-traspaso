@@ -3,3 +3,9 @@ C:\Users\Adan Arik\Brickers\slnTraspasoAcoVerde\Acosta.Domain\bin\Debug\Acosta.D
 C:\Users\Adan Arik\Brickers\slnTraspasoAcoVerde\Acosta.Domain\obj\Debug\Acosta.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Adan Arik\Brickers\slnTraspasoAcoVerde\Acosta.Domain\obj\Debug\Acosta.Domain.dll
 C:\Users\Adan Arik\Brickers\slnTraspasoAcoVerde\Acosta.Domain\obj\Debug\Acosta.Domain.pdb
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Domain\bin\Debug\Acosta.Domain.dll
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Domain\bin\Debug\Acosta.Domain.pdb
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Domain\obj\Debug\Acosta.Domain.csprojAssemblyReference.cache
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Domain\obj\Debug\Acosta.Domain.csproj.CoreCompileInputs.cache
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Domain\obj\Debug\Acosta.Domain.dll
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Domain\obj\Debug\Acosta.Domain.pdb

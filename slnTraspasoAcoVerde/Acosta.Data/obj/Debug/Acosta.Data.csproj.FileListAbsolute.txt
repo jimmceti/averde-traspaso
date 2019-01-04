@@ -8,3 +8,13 @@ C:\Users\Adan Arik\Brickers\slnTraspasoAcoVerde\Acosta.Data\obj\Debug\Acosta.Dat
 C:\Users\Adan Arik\Brickers\slnTraspasoAcoVerde\Acosta.Data\obj\Debug\Acosta.Data.csproj.CopyComplete
 C:\Users\Adan Arik\Brickers\slnTraspasoAcoVerde\Acosta.Data\obj\Debug\Acosta.Data.dll
 C:\Users\Adan Arik\Brickers\slnTraspasoAcoVerde\Acosta.Data\obj\Debug\Acosta.Data.pdb
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Data\bin\Debug\Acosta.Data.dll
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Data\bin\Debug\Acosta.Data.pdb
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Data\bin\Debug\Acosta.Domain.dll
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Data\bin\Debug\UniversalDatabaseConectorV_Optimizada_2.dll
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Data\bin\Debug\Acosta.Domain.pdb
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Data\obj\Debug\Acosta.Data.csprojAssemblyReference.cache
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Data\obj\Debug\Acosta.Data.csproj.CoreCompileInputs.cache
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Data\obj\Debug\Acosta.Data.csproj.CopyComplete
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Data\obj\Debug\Acosta.Data.dll
+C:\jimm\repoGitHub\out\0001\branch\averde-traspaso\slnTraspasoAcoVerde\Acosta.Data\obj\Debug\Acosta.Data.pdb
