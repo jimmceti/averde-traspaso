@@ -177,5 +177,21 @@ namespace Acosta.Data
                 return ds;
             }
         }
+
+        public DataSet Ds_SPPrueba_ConexionDLL(string CadenaConexion)
+        {
+            DataSet ds = new DataSet();
+
+            try
+            {
+                ds = cnn.EjecutarSpDataReader(ProceduresName.sel_FechaHoraSQL, CadenaConexion);
+            }
+            catch (Exception e)
+            {
+                ds = new DataSet();
+                throw e;
+            }
+            return ds;
+        }
     }
 }

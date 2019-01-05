@@ -112,5 +112,21 @@ namespace Acosta.Data
             }
 
         }
+
+
+        public DataTable Prueba_Conexion_porDLL(string cadenaConexion)
+        {
+
+            try
+            {
+                return func.Ds_SPPrueba_ConexionDLL(cadenaConexion).Tables[0];
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
     }
 }

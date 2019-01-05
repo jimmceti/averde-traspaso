@@ -23,6 +23,8 @@ namespace TraspasoAcoVerde.Controllers
 
             var login = GeneralFunctions.ValidaPermisosUsuario(ref motivoRedireccion);
 
+            string pruebaConn = GeneralFunctions.Prueba_ConexionACualquierBD_porDLL();
+
             if(!login) {
                 return Redirect(GeneralFunctions.ObtenerRutaRedireccion());
             }

@@ -167,5 +167,25 @@ namespace TraspasoAcoVerde.AuxClasses
             return string.Format(url + "?AP={0}&T=x", GetIdAplicacion());
 
         }
+
+        //Ds_SPPrueba_ConexionDLL
+        public static string Prueba_ConexionACualquierBD_porDLL()
+        {
+            string cadenaConn = WebConfigurationManager.ConnectionStrings["GAV_AVFT"].ToString();
+
+            Data_GeneralFunctions validacion = new Data_GeneralFunctions();
+
+            var lstPermisos = validacion.Prueba_Conexion_porDLL(cadenaConn);
+            if (lstPermisos.Rows.Count > 0)
+            {
+                return "OK";
+            }
+            else
+            {
+                return "NO";
+            }
+        }
+
+
     }
 }

@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Data_GeneralFunctions.cs" />
     <Compile Include="DbFunctions.cs" />
+    <Compile Include="ProceduresName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
