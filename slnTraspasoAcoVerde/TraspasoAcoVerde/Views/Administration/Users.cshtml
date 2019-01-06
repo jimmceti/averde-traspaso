@@ -15,65 +15,26 @@
     <div class="page-header">
         <h1 class="page-title"></h1>
     </div>
-    <div class="card ">
+    <div class="card">
         <div class="card-header">
             <i class="fa fa-table"></i>
             Usuarios
             <div class="btn-group float-right">
-                <button type="button" id="btnNuevo" class="btn btn-sm btn-success" data-toggle="modal" data-target="#modalnuevo">@*onclick="limpiar();"*@
-                    <i><span class="fa fa-plus-square"></span></i> Nuevo
-                </button> &nbsp;&nbsp;&nbsp;
-
+                <button type="button" id="btnNuevo" class="btn btn-sm btn-success" data-toggle="modal" data-target="#modalnuevo">
+                    @*onclick="limpiar();"*@
+                <i><span class="fa fa-plus-square"></span></i> Nuevo
+            </button>
+        </div>
+        <div class="panel panel-default col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding" style="height:40vh; overflow:auto;">
+            <div class="panel-body no-padding" style="height:100%; width:100%; overflow:hidden;">
+                <div id="grdUsers" style="height:100%; width:100%; overflow:hidden;"></div>
             </div>
         </div>
-        <div class="card-body">
-            @*<div class="table-responsive">
-            <table class="table card-table table-vcenter text-nowrap">
-                <thead>
-                    <tr>
+        </div>
 
-                        <th>Nombre</th>
-                        <th>Correo electrónico</th>
-                        <th>Tipo de usuario</th>
-                        <th>Activo</th>
-                        <th>Editar</th>
-                        <th>Permisos</th>
-                        <th>Contraseña</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            Ricardo Herrera
-                        </td>
-                        <td>
-                            rherrera@grupoav.com
-                        </td>
-                        <td>
-                            corporativo administrador
-                        </td>
-                        <td>si</td>
-                        <td>
-                            <button type="button" class="btn btn-default btn-small  " data-toggle="modal" data-target="#modaleditar"><i class="fa fa-edit"></i></button>
-                        </td>
-                        <td>
-                            <button type="button" class="btn btn-default btn-small  " data-toggle="modal" data-target="#modalpermisos"><i class="fa fa-key"></i></button>
-                        </td>
-                        <td>
-                            <button type="button" class="btn btn-default btn-small  " data-toggle="modal" data-target="#modalcontraseña"><i class="fa fa-lock"></i></button>
-                        </td>
-                    </tr>
-
-
-                </tbody>
-            </table>
+        @*<div class="card-body" style="height:100%; width:100%;">
         </div>*@
-            <div class="panel panel-default col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding" style="height:40vh; overflow:auto;">
-                <div class="panel-body no-padding" style="height:100%; width:100%; overflow:hidden;">
-                    <div id="grdUsers" style="height:100%; width:100%; overflow:hidden;"></div>
-                </div>
-            </div>
-        </div>
+
     </div>
 </div>
 
